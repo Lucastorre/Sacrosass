@@ -1,0 +1,62 @@
+/*/VARIEDADES/*/
+.containerProductos{
+    h1{
+        text-align: center;
+        margin-top:60px;
+    }
+}
+.flexProductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+
+
+    .imgprod {
+        border: 0px solid;
+        border-radius: 10px;
+        @include wyh(auto,12.5rem);
+        box-shadow: 5px 5px 8px rgb(101, 101, 101);
+        background-color: rgb(155, 152, 152);
+    }
+
+    .h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 5%;
+    }
+
+    .prod {
+        margin: 5%
+    }
+
+    hr {
+        display: inline-block;
+        border: 1px solid rgb(33, 32, 32);
+        vertical-align: middle;
+        width: 65px;
+        margin: 4%;
+
+
+    }
+
+    .especificacionProd {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        p{
+            margin:10%
+        }
+
+    }
+
+    .select {
+        margin-bottom: 5%;
+    }
+}

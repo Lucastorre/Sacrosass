@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <meta name="description" content="registro para poder obtener nuestros productos ">
+    <meta name="keywords" content="cafe montevideo , sacrocafe , cafeteria especialidad , cafeteria naranja, cafe zona centro">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+</head>
+
+<body>
+    <div id="ContenedorSacro border">
+        <div class="row header">
+            <div class="col-12 col-lg-12">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-light" href="../index.html">SACRO</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto mb-2 mb-lg-0 ">
+                                <li class="nav-item text-light">
+                                    <a class="nav-link active text-light" aria-current="page"
+                                        href="../index.html">inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="../pages/cursos.html">Cursos</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Conocenos
+                                    </a>
+                                    <ul class="dropdown-menu bg-dark">
+                                        <li><a class="dropdown-item text-light" href="../pages/nuestrasvariedades.html">Variedades
+                                                de
+                                                cafe</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-light" href="../pages/nosotros.html">Nosotros</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-light" href="../pages/registrarse.html">Registrarme</a></li>
+                                    </ul>
+                                </li>
+    
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Ingresar Busqueda"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-light" type="submit">buscar</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+        <form data-aos="fade-left" action="FormularioUsuario">
+            <div class="formulario">
+                <div class="h1formulario">
+                    <h1>Registrate</h1>
+                </div>
+                <label for="nombre">Nombre</label>
+                <input class="inputForm" type="text" name="nombreusuario" placeholder="ingresar">
+                <label for="contraseña"> Contraseña</label>
+                <input class="inputForm" type="password" name="contraseña" placeholder="ingresar">
+                <label for="mail"> Mail</label>
+                <input class="inputForm" type="mail" name="mailusuario" placeholder="ingresar">
+                <label for="tel"> Cel</label>
+                <input class="inputForm" type="tel" name="telefonousuario" placeholder="ingresar">
+                <label for="direccion"> direccion</label>
+                <input class="inputForm" type="text" name="Direccionusuario" placeholder="ingresar">
+
+                <button type="submit" class="boton">REGISTRARSE</button>
+            </div>
+        </form>
+
+        <footer>
+            <div>
+                <h3>Redes Sociales</h3>
+                <p><img src="../assets/img/ig.png" alt="instagram" class="instagramImg"> Instagram:@Sacrocafe</p>
+                <p> <img src="../assets/img/wsp.png" alt="whatsapp" class="whatsapImg"> Whatsapp:09955656</p>
+            </div>
+
+            <div>
+                <h3>Contacto</h3>
+                <p>Tel 2552255</p>
+                <p>Mail: Sacrocafe@gmail.com</p>
+            </div>
+
+            <div>
+                <h3>Locales</h3>
+                <p> Av las flores 331 </p>
+                <h3> Horarios</h3>
+                <p> Lunes a sabados- 8am a 8pm </p>
+            </div>
+
+            <p class="parrafoBuscar"> <input class="inputBuscar" type="search" placeholder="producto"><button
+                    class="boton" type="search" value="buscar">buscar</button></p>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>

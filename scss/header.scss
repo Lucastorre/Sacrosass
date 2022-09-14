@@ -1,0 +1,107 @@
+/*/  HEADER/*/
+.header {
+    grid-area: header;
+    background-color: $colorPrimario;
+    font-size: 1.2rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 30px rgb(71, 70, 70);
+
+    .dropdown-menu .dropdown-item:hover {
+        background-color: rgb(61, 60, 60);
+    }
+
+    .navbar-brand {
+        font-size: 4rem;
+    }
+    .nav-link:hover{
+        transform: translateY(-5%);
+    transition: all 400ms ease;
+    
+
+    }
+    .nav-link{
+        font-size:1.5rem;
+    }
+
+
+    .logoAndSearch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .parrafoBuscar {
+        margin-top: 30px;
+
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 60px;
+        animation-name: logomovimiento;
+        animation-iteration-count: 2;
+        animation-duration: 3s;
+    }
+
+    .logo a {
+        text-decoration: none;
+        color: bisque;
+
+    }
+
+
+    .cabecera li:hover {
+        border: 5px black;
+        transition: all 400ms ease;
+        transform: translateY(-25%);
+
+
+
+    }
+
+    .navegacion {
+        margin-right: 50px;
+        transition: all 250ms ease;
+    }
+
+    .cabecera {
+        padding: 0px;
+        margin-left: 95px;
+
+
+    }
+
+    .cabecera a {
+        color: rgb(50, 42, 42);
+        text-decoration: none;
+        color: bisque;
+
+
+    }
+
+    .cabecera li {
+
+        display: inline-block;
+        text-align: center;
+        margin: 0px 0px 5px 13px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    a.active {
+        color: $colorSecundario;
+
+    }
+
+    .box {
+        padding: 0px;
+
+
+
+
+    }
+
+}

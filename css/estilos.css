@@ -1,0 +1,529 @@
+.boton, .boton-gris {
+  padding: 7px 37px 9px 37px;
+  cursor: pointer;
+  background-color: #dd8245;
+  border-radius: 7px;
+  border: 1px #191818 solid;
+  margin: 1rem;
+  color: beige; }
+
+.boton-gris {
+  background-color: grey; }
+
+select, select-gris {
+  padding: 5px 12px 10px 35px;
+  margin: 2%;
+  background-color: #dd8245;
+  border-radius: 7px;
+  border: 1px #0e0d0d solid;
+  color: beige; }
+
+select-gris {
+  background-color: grey; }
+
+/*/INICIO/*/
+#ContenedorSacro {
+  overflow-x: hidden; }
+
+.PtituloInicio {
+  font-size: 3rem; }
+
+.h1Seccion {
+  font-size: 6rem;
+  line-height: 10px;
+  margin: 5%;
+  font-weight: bold;
+  color: beige; }
+
+.h2Seccion {
+  font-size: 3rem;
+  line-height: 10px;
+  margin: 5%;
+  font-weight: bold; }
+
+.enviarARegistro {
+  grid-area: enviarARegistro;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 60px 0px 60px 0px; }
+  .enviarARegistro a {
+    text-decoration: none;
+    color: beige; }
+  .enviarARegistro p {
+    margin: 0px 0px 20px 0px;
+    font-size: 1.3rem; }
+
+.llevarARegistrarse {
+  padding: 10px 40px 10px 40px;
+  background-color: #dd8245;
+  border-radius: 7px;
+  border: 0px; }
+
+.inicioTitulo {
+  grid-area: inicioTitulo;
+  display: flex;
+  font-size: 3rem;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../assets/img/wallpaperinicio.webp);
+  opacity: 0.8;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 589px;
+  text-align: center;
+  color: beige; }
+
+.h1Bienvenido {
+  padding-top: 220px;
+  font-size: 6rem; }
+
+.deliciasDeLaCasa {
+  grid-area: deliciasDeLaCasa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+  text-align: center; }
+  .deliciasDeLaCasa h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem;
+    margin: 5%;
+    font-weight: bold; }
+  .deliciasDeLaCasa .imagenesDeComida {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  .deliciasDeLaCasa img {
+    margin: 3%;
+    border: 1px solid #525250;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #3f3e3e;
+    width: auto;
+    height: 13rem; }
+
+.seccionContacto {
+  grid-area: seccionContacto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center; }
+  .seccionContacto .ubicacionYBotones {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    margin-bottom: 50px; }
+  .seccionContacto button {
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    background-color: #dd8245;
+    border-radius: 7px;
+    color: beige;
+    border: 1px; }
+  .seccionContacto h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    font-weight: bold; }
+  .seccionContacto iframe {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #6d6c6c; }
+
+/*/REGISTRARSE/*/
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: auto; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5%;
+  font-size: 1rem;
+  width: 30rem;
+  height: 40rem;
+  background-color: #f38f4d;
+  border: 2px grey solid;
+  border-radius: 15px;
+  box-shadow: 2px 2px 3px #4c4b4b; }
+
+.h1formulario {
+  font-size: 1.8rem;
+  margin: 5%; }
+
+.inputForm {
+  margin: 10px;
+  height: 25px;
+  width: 208px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center; }
+
+label {
+  text-align: left; }
+
+/*/INICIAR SESION/*/
+#backgroundSesion {
+  grid-area: backgroundSesion;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-image: url("../assets/img/metodosbackground.jpg");
+  opacity: 0.7;
+  background-size: cover;
+  color: beige;
+  padding: 10% 0px 10% 0px; }
+
+/*/VARIEDADES/*/
+.containerProductos h1 {
+  text-align: center;
+  margin-top: 60px; }
+
+.flexProductos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.2rem; }
+  .flexProductos .imgprod {
+    border: 0px solid;
+    border-radius: 10px;
+    width: auto;
+    height: 12.5rem;
+    box-shadow: 5px 5px 8px #656565;
+    background-color: #9b9898; }
+  .flexProductos .h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5%; }
+  .flexProductos .prod {
+    margin: 5%; }
+  .flexProductos hr {
+    display: inline-block;
+    border: 1px solid #212020;
+    vertical-align: middle;
+    width: 65px;
+    margin: 4%; }
+  .flexProductos .especificacionProd {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+    .flexProductos .especificacionProd p {
+      margin: 10%; }
+  .flexProductos .select {
+    margin-bottom: 5%; }
+
+/*/CURSOS/*/
+.cursosContainer {
+  grid-area: cursos;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 5%; }
+
+.imgCurso {
+  width: auto;
+  border-radius: 10px;
+  width: 313.188px;
+  height: 313.188px; }
+
+.cursosTitulo h2 {
+  margin-top: 50px;
+  font-weight: 6rem;
+  display: flex;
+  margin-left: 100%;
+  flex-direction: column;
+  align-items: center;
+  color: bisque; }
+
+.cards {
+  background-color: #a9a6a6;
+  color: bisque;
+  font-size: 1rem;
+  margin: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  width: 90%; }
+
+.cards:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5%);
+  transition: all 400ms ease; }
+
+.parrafoCurso {
+  margin: 5%;
+  line-height: 1.5rem;
+  cursor: default;
+  color: #eeefef; }
+
+.cursosTitulo {
+  text-align: center;
+  margin-top: 50px; }
+
+/*/NOSOTROS/*/
+.nosotrosPage hr {
+  display: flex;
+  align-items: center;
+  border: 1px solid #494646;
+  vertical-align: middle;
+  width: 350px;
+  margin: 0px auto 0px auto; }
+
+.nosotros {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 100px 40px 100px 40px;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  text-align: center; }
+  .nosotros h2 {
+    margin: 10%;
+    font-size: 3rem; }
+
+.gif {
+  width: 30rem;
+  height: 22rem;
+  border: 0px solid;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #757373; }
+
+.nosotrosTexto {
+  padding: 0px 15% 0px 15%; }
+
+.nosotrosLocal {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 40px 100px 40px;
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  text-align: center; }
+  .nosotrosLocal h2 {
+    margin: 10%;
+    font-size: 3rem; }
+
+/*/  HEADER/*/
+.header {
+  grid-area: header;
+  background-color: #ef763a;
+  font-size: 1.2rem;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 30px #474646; }
+  .header .dropdown-menu .dropdown-item:hover {
+    background-color: #3d3c3c; }
+  .header .navbar-brand {
+    font-size: 4rem; }
+  .header .nav-link:hover {
+    transform: translateY(-5%);
+    transition: all 400ms ease; }
+  .header .nav-link {
+    font-size: 1.5rem; }
+  .header .logoAndSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .header .parrafoBuscar {
+    margin-top: 30px; }
+  .header .logo {
+    text-align: center;
+    font-size: 60px;
+    animation-name: logomovimiento;
+    animation-iteration-count: 2;
+    animation-duration: 3s; }
+  .header .logo a {
+    text-decoration: none;
+    color: bisque; }
+  .header .cabecera li:hover {
+    border: 5px black;
+    transition: all 400ms ease;
+    transform: translateY(-25%); }
+  .header .navegacion {
+    margin-right: 50px;
+    transition: all 250ms ease; }
+  .header .cabecera {
+    padding: 0px;
+    margin-left: 95px; }
+  .header .cabecera a {
+    color: #322a2a;
+    text-decoration: none;
+    color: bisque; }
+  .header .cabecera li {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 0px 5px 13px;
+    padding: 0px 20px 0px 20px; }
+  .header a.active {
+    color: #474747; }
+  .header .box {
+    padding: 0px; }
+
+/*/FOOTER/*/
+footer {
+  grid-area: footer;
+  font-size: 1rem;
+  color: beige;
+  background-color: #474747;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  line-height: 2.5rem; }
+  footer h3 {
+    font-size: 1.5rem; }
+  footer Img {
+    width: 30px;
+    height: 30px; }
+
+/*/MEDIA QUERIE/*/
+@media (max-width: 1256px) {
+  .cursosContainer {
+    flex-direction: column;
+    display: flex; } }
+
+@media only screen and (max-width: 768px) {
+  p {
+    text-align: center; }
+  .h1Bienvenido {
+    line-height: 90%; }
+  .formulario {
+    background-color: gray;
+    margin: 5% 0% 5% 0%;
+    width: auto; }
+  .hrNosotros {
+    margin: 0px; }
+  header {
+    display: flex;
+    flex-direction: column; }
+  .h2DeliciasDeLaCasa {
+    text-align: center; }
+  iframe {
+    width: 100%;
+    border: solid black 2px; }
+  .seccionContacto .ubicacionYBotones {
+    display: flex;
+    flex-direction: column;
+    width: auto; }
+  .h1Contacto {
+    text-align: center; }
+  .img {
+    margin: 10%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 3ms ease;
+    transform: translateY(-5%); }
+  .navegacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .inicioTitulo {
+    background-size: center; }
+  .gif {
+    width: 100%;
+    height: auto; }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%; }
+  .h1Seccion {
+    line-height: 40px;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 3rem; }
+  .PtituloInicio {
+    font-weight: lighter; }
+  .h2Seccion {
+    line-height: 60px;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 3rem; }
+  .cabecera li {
+    display: flex;
+    flex-direction: column; }
+  .cabecera {
+    margin-left: 60px; }
+  .inputBuscar,
+  .buttonBuscar {
+    display: none; }
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .nosotros h2 {
+      margin: 72px 0px 34px -6px; }
+  .nosotrosLocal {
+    display: flex;
+    flex-direction: column; }
+    .nosotrosLocal h2 {
+      font-size: 2.3rem;
+      margin: 30px 0px 30px 0px; }
+  .cursosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .cursosTitulo {
+    text-align: center; }
+  .imgCurso {
+    width: 100%; }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 100%; } }
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: roboto; }
+
+h2, h1 {
+  font-weight: bold;
+  color: #474747; }
+
+p {
+  font-weight: bold; }
+
+body {
+  font-family: roboto;
+  background-color: #bdbbbb; }
+
+a {
+  text-decoration: none; }
+
+/*/GRID/*/
+#ContenedorSacro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-areas: "header header" "inicioTitulo inicioTitulo" "enviarARegistro enviarARegistro" "deliciasDeLaCasa deliciasDeLaCasa" "seccionContacto seccionContacto" "cursos cursos" "backgroundSesion backgroundSesion" "footer footer"; }

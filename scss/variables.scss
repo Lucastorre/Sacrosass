@@ -1,0 +1,52 @@
+
+$colorPrimario: rgb(239, 118, 58);
+$colorSecundario: rgb(71, 71, 71);
+$colorTerciario:rgb(189, 187, 187);
+
+
+//MAPS
+$fontsizes:(
+    texto:1.3rem,
+    tituloChico:3rem,
+    tituloGrande:6rem,
+    negrita:bold
+);
+
+
+//EXTEND
+.boton {
+    padding: 7px 37px 9px 37px;
+    cursor: pointer;
+    background-color: rgb(221, 130, 69);
+    border-radius: 7px;
+    border: 1px rgb(25, 24, 24) solid;
+    margin: 1rem;
+    color: beige;
+    }
+.boton-gris{
+    @extend .boton;
+    background-color: grey; 
+
+}
+
+select {
+    padding: 5px 12px 10px 35px;
+    margin: 2%;
+    background-color: rgb(221, 130, 69);
+    border-radius: 7px;
+    border: 1px rgb(14, 13, 13) solid;
+    color: beige;
+    }
+    select-gris{
+        @extend select;
+        background-color: grey;
+    }
+
+//MIXINS
+
+@mixin wyh($width,$height){
+width:$width;
+height:$height;
+}
+
+

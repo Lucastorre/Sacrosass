@@ -1,0 +1,69 @@
+/*/CURSOS/*/
+.cursosContainer {
+    grid-area: cursos;
+    display: flex;
+    flex-direction:row;
+    
+    font-size: 1rem;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+.imgCurso{
+    width: auto;
+    border-radius: 10px;
+    width: 313.188px;
+    height:313.188px ;
+
+}
+
+.cursosTitulo {
+    h2{
+    margin-top: 50px;
+    font-weight: map-get($fontsizes ,tituloGrande );
+    display: flex;
+    margin-left: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: bisque;
+    }
+}
+
+.cards {
+    background-color: rgb(169, 166, 166);
+    color: bisque;
+    font-size: 1rem;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0,0, 0,0.2);
+    
+    width: 90%;
+    
+    
+    
+    
+
+}
+.cards:hover{
+    
+    box-shadow: 5px 5px 10px rgba(0,0, 0,0.2);
+    transform: translateY(-5%);
+    transition: all 400ms ease;
+}
+
+.parrafoCurso {
+    margin: 5%;
+    line-height: 1.5rem;
+    cursor: default     ;
+    color: rgb(238, 239, 239);
+}
+
+
+
+.cursosTitulo{
+
+        text-align: center;
+        margin-top: 50px;
+    
+}

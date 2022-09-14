@@ -1,0 +1,22 @@
+/*/FOOTER/*/
+
+
+footer {
+
+    grid-area: footer;
+    font-size: 1rem;
+    color: beige;
+    background-color: $colorSecundario;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 2.5rem;
+
+h3{
+    font-size: 1.5rem;
+    }
+Img {
+    width: 30px;
+    height: 30px;
+    }
+ }

@@ -1,0 +1,59 @@
+@import "variables";
+@import "inicio";
+@import "registrarse";
+@import "iniciosesion";
+@import "variedades";
+@import "cursos";
+@import "nosotros";
+@import "header";
+@import "footer";
+@import "mediaquerie";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: roboto;
+   
+    
+}
+h2,h1{
+   font-weight: map-get($fontsizes ,negrita );
+   color:$colorSecundario;
+}
+p{
+    font-weight: map-get($fontsizes ,negrita );
+}
+
+body {
+    font-family: roboto;
+    background-color: $colorTerciario;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+/*/GRID/*/
+#ContenedorSacro {
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas:
+        "header header"
+        /*/inicio/*/
+        "inicioTitulo inicioTitulo"
+        "enviarARegistro enviarARegistro"
+        "deliciasDeLaCasa deliciasDeLaCasa"
+        "seccionContacto seccionContacto"
+        /*/cursos/*/
+        "cursos cursos"
+        /*/iniciarSesion/*/
+        "backgroundSesion backgroundSesion"
+        /*/footer/*/
+        "footer footer"
+}
