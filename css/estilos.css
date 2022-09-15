@@ -21,6 +21,12 @@ select, select-gris {
 select-gris {
   background-color: grey; }
 
+.button--instagramImg {
+  background-color: #db68e869; }
+
+.button--whatsappImg {
+  background-color: #86dd3f71; }
+
 /*/INICIO/*/
 #ContenedorSacro {
   overflow-x: hidden; }
@@ -194,6 +200,9 @@ label {
   text-align: center;
   margin-top: 60px; }
 
+.containerProductos li {
+  text-decoration: none; }
+
 .flexProductos {
   display: flex;
   flex-direction: row;
@@ -217,6 +226,8 @@ label {
     margin: 5%; }
   .flexProductos .prod {
     margin: 5%; }
+    .flexProductos .prod li {
+      list-style-type: none; }
   .flexProductos hr {
     display: inline-block;
     border: 1px solid #212020;
@@ -396,7 +407,8 @@ footer {
     font-size: 1.5rem; }
   footer Img {
     width: 30px;
-    height: 30px; }
+    height: 30px;
+    border-radius: 16px; }
 
 /*/MEDIA QUERIE/*/
 @media (max-width: 1256px) {
@@ -518,7 +530,7 @@ body {
   font-family: roboto;
   background-color: #bdbbbb; }
 
-a {
+li, a {
   text-decoration: none; }
 
 /*/GRID/*/

@@ -50,3 +50,13 @@ height:$height;
 }
 
 
+$redes:(
+    instagramImg:#db68e869,
+    whatsappImg:#86dd3f71,
+    
+    );
+@each $red, $color in $redes{
+    .button--#{$red}{
+        background-color:$color;
+    }
+}
