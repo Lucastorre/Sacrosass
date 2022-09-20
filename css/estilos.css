@@ -113,6 +113,17 @@ select-gris {
     width: auto;
     height: 13rem; }
 
+.contenedorCatalogoBebidas {
+  margin: 2%;
+  border-radius: 8px; }
+  .contenedorCatalogoBebidas img {
+    height: 80px;
+    width: auto;
+    margin: 2%; }
+  .contenedorCatalogoBebidas .contenedorIndividual {
+    margin: 2%;
+    border-radius: 8px; }
+
 .seccionContacto {
   grid-area: seccionContacto;
   display: flex;
@@ -335,8 +346,20 @@ label {
     font-size: 3rem; }
 
 /*/  HEADER/*/
-.header {
-  grid-area: header;
+/*/.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+/*/
+header {
+  grid-area: header; }
+
+.headerContainer {
   background-color: #ef763a;
   font-size: 1.2rem;
   padding: 20px;
@@ -345,52 +368,52 @@ label {
   justify-content: space-between;
   align-items: center;
   box-shadow: 5px 5px 30px #474646; }
-  .header .dropdown-menu .dropdown-item:hover {
+  .headerContainer .dropdown-menu .dropdown-item:hover {
     background-color: #3d3c3c; }
-  .header .navbar-brand {
+  .headerContainer .navbar-brand {
     font-size: 4rem; }
-  .header .nav-link:hover {
+  .headerContainer .nav-link:hover {
     transform: translateY(-5%);
     transition: all 400ms ease; }
-  .header .nav-link {
+  .headerContainer .nav-link {
     font-size: 1.5rem; }
-  .header .logoAndSearch {
+  .headerContainer .logoAndSearch {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
-  .header .parrafoBuscar {
+  .headerContainer .parrafoBuscar {
     margin-top: 30px; }
-  .header .logo {
+  .headerContainer .logo {
     text-align: center;
     font-size: 60px;
     animation-name: logomovimiento;
     animation-iteration-count: 2;
     animation-duration: 3s; }
-  .header .logo a {
+  .headerContainer .logo a {
     text-decoration: none;
     color: bisque; }
-  .header .cabecera li:hover {
+  .headerContainer .cabecera li:hover {
     border: 5px black;
     transition: all 400ms ease;
     transform: translateY(-25%); }
-  .header .navegacion {
+  .headerContainer .navegacion {
     margin-right: 50px;
     transition: all 250ms ease; }
-  .header .cabecera {
+  .headerContainer .cabecera {
     padding: 0px;
     margin-left: 95px; }
-  .header .cabecera a {
+  .headerContainer .cabecera a {
     color: #322a2a;
     text-decoration: none;
     color: bisque; }
-  .header .cabecera li {
+  .headerContainer .cabecera li {
     display: inline-block;
     text-align: center;
     margin: 0px 0px 5px 13px;
     padding: 0px 20px 0px 20px; }
-  .header a.active {
+  .headerContainer a.active {
     color: #474747; }
-  .header .box {
+  .headerContainer .box {
     padding: 0px; }
 
 /*/FOOTER/*/

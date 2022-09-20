@@ -1,6 +1,18 @@
 /*/  HEADER/*/
-.header {
+/*/.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+/*/
+header{
     grid-area: header;
+}
+.headerContainer {
     background-color: $colorPrimario;
     font-size: 1.2rem;
     padding: 20px;
@@ -9,6 +21,8 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 5px 30px rgb(71, 70, 70);
+   
+    
 
     .dropdown-menu .dropdown-item:hover {
         background-color: rgb(61, 60, 60);
