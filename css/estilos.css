@@ -152,6 +152,9 @@ select-gris {
   .seccionContacto iframe {
     border-radius: 10px;
     box-shadow: 5px 5px 10px #6d6c6c; }
+  .seccionContacto .seachHeader {
+    display: flex;
+    flex-direction: row; }
 
 /*/REGISTRARSE/*/
 form {
@@ -368,6 +371,9 @@ header {
   justify-content: space-between;
   align-items: center;
   box-shadow: 5px 5px 30px #474646; }
+  .headerContainer .d-flex {
+    display: flex;
+    flex-direction: row; }
   .headerContainer .dropdown-menu .dropdown-item:hover {
     background-color: #3d3c3c; }
   .headerContainer .navbar-brand {
@@ -533,6 +539,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
     width: 100%; }
   .flexProductos {
     display: flex;

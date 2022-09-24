@@ -22,7 +22,10 @@ header{
     align-items: center;
     box-shadow: 5px 5px 30px rgb(71, 70, 70);
    
-    
+     .d-flex{
+        display: flex;
+        flex-direction: row;
+    }
 
     .dropdown-menu .dropdown-item:hover {
         background-color: rgb(61, 60, 60);
