@@ -1,25 +1,28 @@
 /*/INICIO/*/
 
-#ContenedorSacro{
+#ContenedorSacro {
     overflow-x: hidden;
 }
-.PtituloInicio{
+
+.PtituloInicio {
     font-size: map-get($fontsizes, tituloChico);
 }
+
 .h1Seccion {
-    font-size:map-get($fontsizes,tituloGrande);
+    font-size: map-get($fontsizes, tituloGrande);
     line-height: 10px;
     margin: 5%;
-    font-weight: map-get($fontsizes ,negrita );
+    font-weight: map-get($fontsizes , negrita);
     color: beige;
-    
-    
+
+
 }
-.h2Seccion{
-    font-size:map-get($fontsizes,tituloChico);
+
+.h2Seccion {
+    font-size: map-get($fontsizes, tituloChico);
     line-height: 10px;
     margin: 5%;
-    font-weight: map-get($fontsizes ,negrita );
+    font-weight: map-get($fontsizes , negrita);
 
 }
 
@@ -36,9 +39,10 @@
         text-decoration: none;
         color: beige;
     }
-    p{
-        margin:0px 0px 20px 0px;
-        font-size: map-get($fontsizes,texto );
+
+    p {
+        margin: 0px 0px 20px 0px;
+        font-size: map-get($fontsizes, texto);
     }
 }
 
@@ -67,7 +71,7 @@
 
 .h1Bienvenido {
     padding-top: 220px;
-    font-size: map-get($fontsizes ,tituloGrande);
+    font-size: map-get($fontsizes , tituloGrande);
 
 }
 
@@ -88,7 +92,7 @@
         align-items: center;
         font-size: 4rem;
         margin: 5%;
-        font-weight: map-get($fontsizes ,negrita );
+        font-weight: map-get($fontsizes , negrita);
     }
 
     .imagenesDeComida {
@@ -105,23 +109,24 @@
         border: 1px solid rgb(82, 82, 80);
         border-radius: 10px;
         box-shadow: 5px 5px 10px rgb(63, 62, 62);
-        @include wyh(auto,13rem)
-
+        @include wyh(auto, 13rem)
     }
 
 }
-.contenedorCatalogoBebidas{
+
+.contenedorCatalogoBebidas {
     margin: 2%;
     border-radius: 8px;
 
-    img{
+    img {
         height: 80px;
         width: auto;
         margin: 2%;
     }
-    .contenedorIndividual{
+
+    .contenedorIndividual {
         margin: 2%;
-    border-radius: 8px;
+        border-radius: 8px;
     }
 }
 
@@ -161,14 +166,32 @@
         flex-direction: column;
         align-items: center;
         margin: 5%;
-        font-weight: map-get($fontsizes ,negrita );
+        font-weight: map-get($fontsizes , negrita);
     }
-    iframe{
+
+    iframe {
         border-radius: 10px;
         box-shadow: 5px 5px 10px rgb(109, 108, 108);
     }
-    .seachHeader{
+
+}
+/*/
+.contenedorMenuCafes {
+    .rowCafeMenu{
+        h2{
+        font-size: 1.2rem;
+        }
+    }
+    .imgMenuCafe {
+        width: auto;
+        height: 80px;
+    }
+    .elementosMenuCafe{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
+
 }
+/*/

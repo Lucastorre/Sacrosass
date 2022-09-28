@@ -152,10 +152,27 @@ select-gris {
   .seccionContacto iframe {
     border-radius: 10px;
     box-shadow: 5px 5px 10px #6d6c6c; }
-  .seccionContacto .seachHeader {
-    display: flex;
-    flex-direction: row; }
 
+/*/
+.contenedorMenuCafes {
+    .rowCafeMenu{
+        h2{
+        font-size: 1.2rem;
+        }
+    }
+    .imgMenuCafe {
+        width: auto;
+        height: 80px;
+    }
+    .elementosMenuCafe{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+/*/
 /*/REGISTRARSE/*/
 form {
   display: flex;
