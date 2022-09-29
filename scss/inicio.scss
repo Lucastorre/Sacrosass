@@ -44,9 +44,15 @@
         margin: 0px 0px 20px 0px;
         font-size: map-get($fontsizes, texto);
     }
+    .botonesInicioYRegistro{
+        display: flex;
+        flex-direction: row;
+
+    }
 }
 
 .llevarARegistrarse {
+    margin:10px;
     padding: 10px 40px 10px 40px;
     background-color: rgb(221, 130, 69);
     border-radius: 7px;
@@ -113,7 +119,7 @@
     }
 
 }
-
+/*/
 .contenedorCatalogoBebidas {
     margin: 2%;
     border-radius: 8px;
@@ -130,7 +136,7 @@
     }
 }
 
-
+/*/
 .seccionContacto {
     grid-area: seccionContacto;
     display: flex;

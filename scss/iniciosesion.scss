@@ -1,6 +1,7 @@
 /*/INICIAR SESION/*/
 
 #backgroundSesion {
+    
     grid-area: backgroundSesion;
     display: flex;
     flex-direction: column;
@@ -13,8 +14,25 @@
     background-image: url("../assets/img/metodosbackground.jpg") ;
     opacity: 0.7;
     background-size: cover;
-    color: beige;
-    padding: 10% 0px 10% 0px;
+   padding: 10% 0px 10% 0px;
 
 
+}
+.iniciarsesion{
+    h1{
+        color:#b4a496;
+        
+    }
+        .oc{
+            color:black;
+            font-weight:bold;
+        }
+        label{
+            color:black;
+            font-weight:bold;
+
+        }
+        input{
+            border-radius:10px;
+        }
 }

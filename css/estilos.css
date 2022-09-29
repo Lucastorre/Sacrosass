@@ -61,8 +61,12 @@ select-gris {
   .enviarARegistro p {
     margin: 0px 0px 20px 0px;
     font-size: 1.3rem; }
+  .enviarARegistro .botonesInicioYRegistro {
+    display: flex;
+    flex-direction: row; }
 
 .llevarARegistrarse {
+  margin: 10px;
   padding: 10px 40px 10px 40px;
   background-color: #dd8245;
   border-radius: 7px;
@@ -113,17 +117,24 @@ select-gris {
     width: auto;
     height: 13rem; }
 
+/*/
 .contenedorCatalogoBebidas {
-  margin: 2%;
-  border-radius: 8px; }
-  .contenedorCatalogoBebidas img {
-    height: 80px;
-    width: auto;
-    margin: 2%; }
-  .contenedorCatalogoBebidas .contenedorIndividual {
     margin: 2%;
-    border-radius: 8px; }
+    border-radius: 8px;
 
+    img {
+        height: 80px;
+        width: auto;
+        margin: 2%;
+    }
+
+    .contenedorIndividual {
+        margin: 2%;
+        border-radius: 8px;
+    }
+}
+
+/*/
 .seccionContacto {
   grid-area: seccionContacto;
   display: flex;
@@ -223,8 +234,21 @@ label {
   background-image: url("../assets/img/metodosbackground.jpg");
   opacity: 0.7;
   background-size: cover;
-  color: beige;
   padding: 10% 0px 10% 0px; }
+
+.iniciarsesion h1 {
+  color: #b4a496; }
+
+.iniciarsesion .oc {
+  color: black;
+  font-weight: bold; }
+
+.iniciarsesion label {
+  color: black;
+  font-weight: bold; }
+
+.iniciarsesion input {
+  border-radius: 10px; }
 
 /*/VARIEDADES/*/
 .containerProductos h1 {
@@ -529,9 +553,6 @@ footer {
     flex-direction: column; }
   .cabecera {
     margin-left: 60px; }
-  .inputBuscar,
-  .buttonBuscar {
-    display: none; }
   .nosotros {
     display: flex;
     flex-direction: column;
